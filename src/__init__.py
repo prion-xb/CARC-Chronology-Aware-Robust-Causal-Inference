@@ -1,4 +1,4 @@
-"""CARC: Chronology-Aware Robustness Causality — shared library."""
+"""CARC: Chronology-Aware Robust Causal Inference — shared library."""
 
 # =========================================================================
 # OOP classes (NEW — Summer assignment architecture)

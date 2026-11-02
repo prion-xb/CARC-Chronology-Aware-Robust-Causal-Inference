@@ -8,7 +8,7 @@ Class Hierarchy
 ---------------
 CausalDetector (ABC)
 ├── StandardGrangerDetector  — standard bivariate Granger causality
-└── CARCDetector             — CARC: chronology-aware robust causality
+└── CARCDetector             — CARC: chronology-aware robust causal inference
 
 CARCDetector extends StandardGrangerDetector by adding ARC (Adaptive
 Residual Causality) deconfounding, age-perturbation ensembles, and a
@@ -177,10 +177,10 @@ class StandardGrangerDetector(CausalDetector):
 
 
 # ======================================================================
-# CARC Detector — Chronology-Aware Robustness Causality
+# CARC Detector — Chronology-Aware Robust Causal Inference
 # ======================================================================
 class CARCDetector(StandardGrangerDetector):
-    """Chronology-Aware Robustness Causality (CARC) detector.
+    """Chronology-Aware Robust Causal Inference (CARC) detector.
 
     Extends standard Granger causality with three key innovations:
 

@@ -11,8 +11,8 @@ inference method under active research. We welcome:
 ## Development Setup
 
 ```bash
-git clone https://github.com/prion-xb/CARC-Chronology-Aware-Regional-Causal-Inference.git
-cd CARC-Chronology-Aware-Regional-Causal-Inference
+git clone https://github.com/prion-xb/CARC-Chronology-Aware-Robust-Causal-Inference.git
+cd CARC-Chronology-Aware-Robust-Causal-Inference
 pip install -r requirements.txt
 cp .env.example .env   # edit paths as needed
 ```

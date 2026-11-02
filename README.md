@@ -1,4 +1,4 @@
-# CARC: Chronology-Aware Regional Causal Inference on Paleoclimate Event Scales
+# CARC: Chronology-Aware Robust Causal Inference on Paleoclimate Event Scales
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org)
@@ -120,7 +120,7 @@ python -m pytest tests/ -v
 If you use this code in your research, please cite the accompanying paper
 (see [CITATION.cff](CITATION.cff)):
 
-> Ruan, X., Wang, H., & Zhang, Z. CARC: Chronology-Aware Regional Causal
+> Ruan, X., Wang, H., & Zhang, Z. CARC: Chronology-Aware Robust Causal
 > Inference on Paleoclimate Event Scales. *Geoscience Frontiers*
 > (in preparation).
 

@@ -174,7 +174,7 @@ def main():
     fail_note.set_gid('layer-decision-fail-note')
 
     foot_title = fig.text(0.02, 0.028,
-                          'CARC — Chronology-Aware Robustness Criterion',
+                          'CARC — Chronology-Aware Robust Causal Inference',
                           fontsize=13, fontweight='bold', color=INK)
     foot_title.set_gid('layer-footer-title')
     foot_note = fig.text(0.02, 0.004,

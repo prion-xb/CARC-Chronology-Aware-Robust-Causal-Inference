@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software in your research, please cite the accompanying paper."
-title: "CARC: Chronology-Aware Regional Causal Inference on Paleoclimate Event Scales"
+title: "CARC: Chronology-Aware Robust Causal Inference on Paleoclimate Event Scales"
 authors:
   - family-names: Ruan
     given-names: Xiaobei
@@ -14,7 +14,7 @@ authors:
     affiliation: "State Key Laboratory of Geomicrobiology and Environmental Changes, School of Earth Sciences and Resources, China University of Geosciences, Beijing, China"
     email: 2026020022@cugb.edu.cn
 type: software
-repository-code: "https://github.com/prion-xb/CARC-Chronology-Aware-Regional-Causal-Inference"
+repository-code: "https://github.com/prion-xb/CARC-Chronology-Aware-Robust-Causal-Inference"
 # doi: "10.xxxx/xxxxx"  # Add DOI upon publication (e.g. Zenodo)
 license: MIT
 keywords:

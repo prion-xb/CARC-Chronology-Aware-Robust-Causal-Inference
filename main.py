@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-main.py — CARC (Chronology-Aware Robustness Causality) entry point.
+main.py — CARC (Chronology-Aware Robust Causal Inference) entry point.
 
 This script demonstrates the object-oriented architecture of the CARC
 paleoclimate causal inference framework. It showcases:
@@ -144,7 +144,7 @@ def run_demo():
 
       CausalDetector (ABC)       — abstract base for causal methods
         ├── StandardGrangerDetector — classical Granger causality
-        └── CARCDetector            — chronology-aware robust causality
+        └── CARCDetector            — chronology-aware robust causal inference
 
       RecordFactory              — creates PaleoRecord by file type
       DetectorFactory            — creates CausalDetector by name
@@ -237,7 +237,7 @@ def run_full_pipeline(method='carc', age_min=10.0, age_max=60.0, **kwargs):
 # =========================================================================
 def main():
     parser = argparse.ArgumentParser(
-        description="CARC — Chronology-Aware Robustness Causality",
+        description="CARC — Chronology-Aware Robust Causal Inference",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
